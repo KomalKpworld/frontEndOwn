@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SignInComponent } from './user/sign-in/sign-in.component';
 
+import { UserModule } from './user/user.module';
 @NgModule({
   declarations: [
-    AppComponent,
-    SignInComponent
+    AppComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    UserModule
   ],
+ 
   providers: [],
   bootstrap: [AppComponent]
 })
