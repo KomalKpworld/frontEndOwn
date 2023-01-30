@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "paya",
+      "lastName": "bansod",
+      "email": " komal@gmail.com",
+      "password": "bansod@123",
+      "joiningdate": "2023-01-09T18:30:00.000Z",
+      "gender": "Female",
+      "education": "years",
+      "id": 2
+    },
+    {
+      "firstName": "payal",
+      "lastName": "bansod",
+      "email": " komal@gmail.com",
+      "password": "bansod@123",
+      "joiningdate": "2023-01-09T18:30:00.000Z",
+      "gender": "Female",
+      "education": "years",
+      "id": 4
+    },
+    {
+      "firstName": "jiya",
+      "lastName": "bansod",
+      "email": " komal@gmail.com",
+      "password": "bansod@123",
+      "joiningdate": "2023-01-09T18:30:00.000Z",
+      "gender": "Female",
+      "education": "years",
+      "id": 5
+    },
+    {
+      "firstName": "kk.",
+      "lastName": "bansod",
+      "email": " komal@gmail.com",
+      "password": "bansod@123",
+      "joiningdate": "2023-01-09T18:30:00.000Z",
+      "gender": "Female",
+      "education": "years",
+      "id": 6
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "joiningdate": "",
+      "gender": "",
+      "education": "",
+      "id": 7
+    }
+  ]
+}
