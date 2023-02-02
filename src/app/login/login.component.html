@@ -1,0 +1,38 @@
+<body class="bg-blue-100 ">
+
+
+<div class="pt-10  text-4xl  flex justify-center  ">
+  <div  class ="font-bold mt-28"> Application </div> 
+<div class="mt-28">
+    Panel
+    </div>
+</div>
+
+<div class="background">
+
+<div class=" ">
+    <p class=" pt-5  text-center">Sign in to start your session</p>
+  
+    <div class="mt-4 mx-5 ">
+      
+          <input  placeholder="email" class="border-2 border-blue-300 p-2"   [formControl]="email" required>
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+
+      </div>
+      <div class="mt-4 mx-5  ">
+
+            <input  placeholder="password" class="border-2 p-2 border-blue-300" >
+    
+      </div>
+</div>
+<button class="p-2 px-7 bg-blue-400 m-4 text-white">Sign In</button>
+<ul>
+    <a href="">
+    <li class="text-blue-500 text-xl leading-normal mx-4">
+        Register
+    </li>
+</a>
+</ul>
+</div>
+
+</body>

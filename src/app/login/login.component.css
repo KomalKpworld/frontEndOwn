@@ -1,0 +1,10 @@
+input{
+   width: 100%
+}
+.background{
+    background: white;
+    max-width: 450px;
+    margin-left:  950px;
+    margin-top:  50px;
+    height: 300px;
+}
