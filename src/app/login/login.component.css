@@ -1,10 +1,10 @@
 input{
    width: 100%
 }
-.background{
+.box{
     background: white;
     max-width: 450px;
-    margin-left:  950px;
-    margin-top:  50px;
     height: 300px;
+    margin:auto;
+    margin-top: 20px;
 }
